@@ -7,8 +7,12 @@
 -- Created by: Jacek Gałka | http://jacekgalka.pl/en
 --
 -- ************ BEGIN configuration block ************
-local zoneArmStateDeviceID = 1 -- ID urządzenia wskazującego stan uzbrojenia strefy. Ewentualnie można tutaj dać ta
+local zoneArmStateDeviceID = 1 -- ID urządzenia wskazującego stan uzbrojenia strefy.
 local alarmBreachedDeviceID = 2 -- ID urządzenia wskazującego na występowanie alarmu
+
+-- W przyszłości można się pokusić o tablicę ID do sprawdzania, które strefy są uzbrojone i uzbrajania lub rozbrajania oraz aktualizowania UI urządzenia wirtualnego w pętli
+-- jak w skrypcie Arm all button.lua.
+
 -- ************ END configuration block ************
 
 -- ************ BEGIN helper functions ************
